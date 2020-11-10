@@ -15,6 +15,16 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Space Grotesk']
+        }
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
